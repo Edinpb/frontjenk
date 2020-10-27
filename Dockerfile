@@ -11,4 +11,6 @@ RUN npm install react-scripts -g
 
 COPY . ./
 
+EXPOSE 3000
+
 CMD ["npm", "start"]
